@@ -251,6 +251,26 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
+.about .button-area button{
+    color: #fff;
+    display: block;
+    width: 160px!important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: #fceb00;
+    border: 2px solid #fceb00;
+    transition: all 0.3s ease;
+  }
+  .about .button-area button:hover{
+    color: #db1616;
+    background: none;
+    border: 2px solid #db1616;
+  }
 
 /* services section styling */
 
@@ -311,6 +331,26 @@ section .title::after{
     border: 2px solid #fceb00;
     transition: all 0.3s ease;
 }
+.skills .left .button-area button{
+    color: #fff;
+    display: block;
+    width: 160px!important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: #fceb00;
+    border: 2px solid #fceb00;
+    transition: all 0.3s ease;
+  }
+  .skills .left .button-area button:hover{
+    color: #db1616;
+    background: none;
+    border: 2px solid #db1616;
+  }
 
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
@@ -354,6 +394,7 @@ section .title::after{
 .skills-content .right .python::before{
     width: 20%;
 }
+
 
 
 /* contact section styling */
